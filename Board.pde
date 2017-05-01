@@ -16,10 +16,10 @@ void updateCommentArea(String comment){
  textSize(30);
  textAlign(CENTER);
  text(comment, 225, 180);
- textSize(20);
- String scoreMessage = "Score:"+game.score;
- text(scoreMessage, 225, 200);
-}
+ textSize(20);  
+ String scoreMessage = "Win:"+game.win+" Draw:"+game.draw+ " Lose:"+game.lose;  
+ text(scoreMessage, 225, 200);  
+  }
 
   void updateResultArea(String result) {
     fill(#000000);
