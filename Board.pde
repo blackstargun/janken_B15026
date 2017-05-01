@@ -9,7 +9,7 @@ class Board {
     image(pa, 300, 0, 150, 150);
   }
 
-  void updateCommentArea(String comment){
+void updateCommentArea(String comment){
  fill(#000000);
  rect(0,150,450,75);
  fill(#FFFFFF);
